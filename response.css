@@ -1,0 +1,45 @@
+
+
+/* Adicionando Media Queries */
+
+/* Estilos para dispositivos com largura máxima de 768px (tablets em orientação retrato e dispositivos móveis) */
+@media only screen and (max-width: 768px) {
+    .main-container {
+        width: 90%;
+        max-width: 400px;
+        padding: 15px;
+    }
+    .input-city {
+        width: calc(100% - 60px);
+    }
+}
+
+/* Estilos para dispositivos com largura máxima de 576px (dispositivos móveis em orientação retrato) */
+@media only screen and (max-width: 576px) {
+    .main-container {
+        width: 85%;
+        max-width: 350px;
+        padding: 10px;
+    }
+    .input-city {
+        width: calc(100% - 50px);
+    }
+    .lower-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 15px;
+    }
+    .nameOfcity {
+        font-size: 20px;
+    }
+    .temp {
+        font-size: 18px;
+    }
+    .text-Previs-temp {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .umidade {
+        margin-top: 10px;
+    }
+}
