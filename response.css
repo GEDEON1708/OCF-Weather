@@ -1,8 +1,4 @@
 
-
-/* Adicionando Media Queries */
-
-/* Estilos para dispositivos com largura máxima de 768px (tablets em orientação retrato e dispositivos móveis) */
 @media only screen and (max-width: 768px) {
     .main-container {
         width: 90%;
@@ -14,7 +10,7 @@
     }
 }
 
-/* Estilos para dispositivos com largura máxima de 576px (dispositivos móveis em orientação retrato) */
+
 @media only screen and (max-width: 576px) {
     .main-container {
         width: 85%;
